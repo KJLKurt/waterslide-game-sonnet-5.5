@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <title>Splash Rush – 3D Water Slide Racer</title>
+    <meta name="description" content="Race 12 rivals down a banked 3D water slide. Jump the gap, take the shortcut, finish first. Works offline." />
+    <meta name="theme-color" content="#1e9bf0" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Splash Rush" />
+    <meta name="format-detection" content="telephone=no" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" tabindex="-1"></canvas>
+      <div id="ui"></div>
+    </div>
+    <div id="boot"><div><div class="spin"></div>Loading Splash Rush…</div></div>
+    <noscript>Splash Rush needs JavaScript and WebGL to run.</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

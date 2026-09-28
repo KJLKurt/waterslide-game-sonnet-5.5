@@ -172,4 +172,4 @@ Append `?debug` to expose `window.__game` (`debugState()`, `debugPlace(path, s, 
 - Model: sonnet-5.5
 - Effort: extra-high
 - Cost: $11.78
-- Site: https://kjlkurt.github.io/waterslide-game-sonnet-5.5/# waterslide-game-sonnet-5.5-
+- Site: https://kjlkurt.github.io/waterslide-game-sonnet-5.5/
